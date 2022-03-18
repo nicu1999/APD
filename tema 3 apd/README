@@ -1,0 +1,14 @@
+ROSCA NICOLAE 343C3
+
+    0
+  /   \    
+ /     \
+/       \
+2--------1
+
+Prima parte din tema este realizata in felul urmator: cei trei coordonatori isi trimit tabela de copii, prima oara in directia
+acelor de ceasornic, iar dupa invers. De exemplu, procesul 0 trimite lista procesului 1, asteapta sa primeasca de la 2 lista,
+dupa trimite procesului 2 lista, si asteapta sa primeasca de la 1. Dupa, fiecare coordonator trimite copiilor cele 3 liste.
+
+In cea de a doua parte, procesul 0 trimite segmentele de prelucrat procesului 1 si 2. Toti trei, in paralel, trimit copiilor
+listele, acestia le prelucreaza si dupa recombina la nicel de process si la nivel de root vectorul initial.
